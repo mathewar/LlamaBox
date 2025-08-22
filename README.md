@@ -1,6 +1,6 @@
 # Concept: Llama Box
 
-!(1755891284462.jpg)
+![LlamaBox](1755891284462.jpg)
 
 The Llama Box is an open-source, offline-first personal AI device designed for privacy and local inference of large language models (LLMs). It leverages a user's smartphone for its interface, allowing for a compact, powerful, and private AI experience without relying on cloud services. The project will provide a complete blueprint for both hardware and software, fostering a community-driven ecosystem.
 Core Features
