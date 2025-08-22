@@ -27,6 +27,20 @@ The hardware design prioritizes a balance of performance, power efficiency, and 
 | Connectivity | Wi-Fi 6E, Bluetooth 5.0, USB-C 3.2. | Wi-Fi for one-way updates; Bluetooth for low-power connections; USB-C for high-speed data transfer and power. |
 | Power | USB-C Power Delivery (PD) enabled. The device will be powered by a wall adapter, not the host phone. | Ensures a stable power supply for the GPU and prevents a significant drain on the phone's battery. |
 
+### Bill of Materials (Estimated)
+
+The following table provides an estimated Bill of Materials (BOM) for the core components of the Llama Box. Prices are based on market research conducted in August 2025 and are subject to change.
+
+| Component | Example Product | Estimated Cost (USD) |
+|---|---|---:|
+| Development Kit | NVIDIA Jetson Orin Nano Developer Kit | $249 |
+| Storage | 1TB M.2 NVMe SSD | $80 |
+| Microphone | ReSpeaker USB Mic Array | $74 |
+| Enclosure | Metal/Acrylic Case for Jetson Orin Nano | $25 |
+| **Total Estimated Cost** | | **$428** |
+
+*Note: The NVIDIA Jetson Orin Nano Developer Kit includes the SoC, GPU, a pre-installed Wi-Fi/Bluetooth module, and a power supply, simplifying the build.*
+
 ## 4. Software Architecture
 
 The software is designed to be modular and easy to contribute to. The main components are:
